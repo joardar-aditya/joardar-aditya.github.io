@@ -6,7 +6,9 @@ body {
 }
 
 #hope_line {
-    margin-inline-start: 0vw;
+    margin-inline-start: 2vw;
+    text-align: center;
+    font-size: 26px
 }
 
 #main_title {
@@ -16,4 +18,26 @@ body {
 
 #sub_head {
     align-content: center;
+}
+
+#thing_i_know {
+    text-align: center;
+}
+
+ul li {
+    display: block;
+    background: gray;
+    break-after: always;
+    margin: 0%;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    vertical-align: middle;
+    border: orangered solid 5px;
+}
+
+inline {
+    padding-block-start: 5pw
 }
